@@ -1,3 +1,8 @@
-#cloud-config
+# rancher os cloud config file
+
 ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDl9XZvBCfdxUCYwOzoEy5LW6pIp9+/T6JGp0JTl1doUndm6Qs6rXMipO5eivNSm94Pnkyake052jOWp9wTaH0Ni4EBVICQ50/yQA76s4Bfc7m5WHsBxJi4JDnKXtrmWP131sCsBkhj5Lxu7D6ruVNllOcspM23fZqvJA6UJlnVdbUTcN2XCyylev7lBCXa9+CAWUbRrOe9nmf6YuugBI/gwoxLh8LtleFJMrZz3t1/YlE4kZa2sik9Fi+09Ep+DF4+tmXMJ1Rsf2S9BK8eRudpQ9l94eq/3Uv6pYatY0Ls5iuMEy7doxxreWLZl/ISSWDiDPEJsG270HqXY6KE0Zqh echo@Echo-MBP.local
+
+rancher:
+  docker:
+    engine: docker-1.10.3
